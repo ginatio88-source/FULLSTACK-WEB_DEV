@@ -1,0 +1,73 @@
+var x=5;
+let y=10;
+
+console.log(x+y);
+
+console.log ("1"+"1");
+
+const myName="Gina";
+
+//myName="Gina";
+
+console.log("My name is"+ myName);
+
+console.log(x*x)
+
+console.log(x + "times" + x + "=" + (x * x));
+
+// basic
+
+
+//DATA TYPES
+
+//Integer (2 billion positive, 2 bilion negatives)
+//Decimals (Double,float)
+//Boolan(0,1)
+//String(basically words enclosed in "quotation marks")
+
+let distance = 5.5
+let goThere = true
+
+console.log(distance);
+console.log(goThere);
+
+console.log(typeof "goThere");
+
+// NON-PRIMITIVE DATA TYPES
+//Objects (represented by {})
+//Array (represented by [])
+
+
+// Array
+let students = ["Celine","Gina","Anith"];
+console.log(students[1]);  
+
+// Object
+let myDetails={
+    name: "Gina",
+    age: "30",
+    city: "Penang",
+    students: students
+}
+console.log(myDetails.students[0]);
+
+let details = [
+    {
+        "name": "Celine",
+        "age": 22,
+        "city": "Kuala Lumpur"
+    },
+    {
+        "name": "Gina",
+        "age": 30,
+        "city": "Penang"
+    },
+    {
+        "name": "Anith",
+        "age": 25,
+        "city": "Ipoh"
+    }
+];
+
+console.log(details);
+
